@@ -1,0 +1,31 @@
+.toDoContainer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+
+  background-color: #191b1f;
+}
+.toDoContainer .card {
+  text-align: center;
+}
+.cardItem:hover{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4); 
+
+
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("/public/fonts/Alexandria/Alexandria-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("/public/fonts/Alexandria/Alexandria-Bold.ttf");
+  font-weight: bold;
+}
+.iconsContainer{
+  height: 50%;
+}
